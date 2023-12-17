@@ -1,0 +1,14 @@
+{
+  "login": "Anmelden",
+  "logout": "Abmelden",
+  "register": "Registrieren",
+  "account": "Konto",
+  "firstName": "Vorname",
+  "lastName": "Nachname",
+  "username": "Benutzername",
+  "password": "Passwort",
+  "aboutMe": "Über mich",
+  "secret": "Geheim",
+  "role": "Rolle",
+  "name": "Name"
+}

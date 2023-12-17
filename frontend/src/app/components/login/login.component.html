@@ -1,0 +1,11 @@
+<h1>{{ "login" | translate }}</h1>
+
+<form>
+  <input name="username" placeholder="{{'username' | translate}}" [(ngModel)]="dto.username"><br>
+  <br>
+
+  <input name="password" type="password" placeholder="{{'password' | translate}}" [(ngModel)]="dto.password"><br>
+  <br>
+
+  <input type="button" value="{{'login' | translate}}" (click)="login()">
+</form>

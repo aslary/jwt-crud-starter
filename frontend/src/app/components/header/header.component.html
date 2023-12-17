@@ -1,0 +1,19 @@
+<h1>
+  <div>
+    <a *ngIf="!auth.authenticated" routerLink="login">{{ "login" | translate }}</a>
+    <a *ngIf="!auth.authenticated" routerLink="register">{{ "register" | translate }}</a>
+
+    <a *ngIf="auth.authenticated" routerLink="/about-me">{{ "aboutMe" | translate }}</a>
+    <a *ngIf="auth.role === 'ADMIN'" routerLink="/admin">{{ "secret" | translate }}</a>
+
+    <button *ngIf="auth.authenticated" (click)="logout()">{{ "logout" | translate }}</button>
+
+    <select #langSelect [ngModel]="translateService.currentLang" (change)="languageChange(langSelect.value)">
+      <option *ngFor="let lang of langs" [value]="lang.code">{{ lang.display }}</option>
+    </select>
+  </div>
+</h1>
+
+<hr>
+
+<br>

@@ -1,0 +1,17 @@
+<h1>{{ "register" | translate }}</h1>
+
+<form>
+  <input name="firstName" placeholder="{{'firstName' | translate}}" [(ngModel)]="dto.firstName"><br>
+  <br>
+
+  <input name="lastName" placeholder="{{'lastName' | translate}}" [(ngModel)]="dto.lastName"><br>
+  <br>
+
+  <input name="username" placeholder="{{'username' | translate}}" [(ngModel)]="dto.username"><br>
+  <br>
+
+  <input name="password" type="password" placeholder="{{'password' | translate}}" [(ngModel)]="dto.password"><br>
+  <br>
+
+  <input type="button" value="{{'register' | translate}}" (click)="register()">
+</form>

@@ -1,0 +1,14 @@
+{
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "account": "Account",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "username": "User name",
+  "password": "Password",
+  "aboutMe": "About me",
+  "secret": "Secret",
+  "role": "Role",
+  "name": "Name"
+}
