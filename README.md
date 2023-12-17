@@ -2,6 +2,7 @@
 
 Simple fullstack project that uses JWT authentication and authorization via self-signed JWTs.
 Intended to be used as a quickstart project to allow for RBAC via Spring Boot and Angular.
+Supports i18n on the backend and frontend, allowing for more user friendliness out of the box.
 
 ## Why should I use this template?
 
